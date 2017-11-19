@@ -1,0 +1,17 @@
+<section class="related">
+  <h5 class="separator">
+    <span class="separator__title">Related</span>
+  </h5>
+{% for post in site.related_posts limit:4 %}
+ <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+   <div class="article-item">
+     <header class="post-header">
+       <h4 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h4>
+     </header>
+     <section class="post-excerpt" itemprop="description">
+       <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+     </section>
+   </div>
+ </article>
+{% endfor %}
+</section>

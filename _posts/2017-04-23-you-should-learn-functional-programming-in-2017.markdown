@@ -85,15 +85,14 @@ In functional programming languages state is immutable, this means that once a v
 
 As before let's use Elixir to illustrate this concepts:
 
-```
+{% highlight elixir %}
 iex> tuple = {:ok, "hello"}
 {:ok, "hello"}
 iex> put_elem(tuple, 1, "world")
 {:ok, "world"}
 iex> tuple
 {:ok, "hello"}
-
-```
+{% endhighlight %}
 
 In the example our tuple will never change values, in the third line put_elem is returning a completely new tuple without modifying the values of the original.
 

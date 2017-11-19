@@ -28,6 +28,7 @@ jekyll-crosspost_to_medium:
 gems:
   - jekyll-paginate
   - jekyll/tagging
+  - classifier-reborn
 
 include:
   - _pages
