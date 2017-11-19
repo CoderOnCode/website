@@ -9,9 +9,14 @@
        <h4 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h4>
      </header>
      <section class="post-excerpt" itemprop="description">
-       <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+      {% if post.excerpt_tag %}
+        <p>{{ post.excerpt_tag | markdownify |truncatewords: 50 }}</p>
+      {% else %}
+        <p>{{ post.excerpt }}</p>
+      {% endif %}
      </section>
    </div>
  </article>
+ <hr/>
 {% endfor %}
 </section>

@@ -12,7 +12,6 @@ module Jekyll
       post.data["excerpt_tag"] = super
     end
   end
-
 end
 
 Liquid::Template.register_tag('excerpt', Jekyll::PostExcerpt)

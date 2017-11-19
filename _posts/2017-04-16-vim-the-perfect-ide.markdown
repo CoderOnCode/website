@@ -17,7 +17,10 @@ image: '/images/posts/vim_ide_001.png'
 
 Over the years I've jumped back and forth between many code editors, **IDEs** and **tools**; but it seems that somehow I always end up coming right back to VIM, and not only for programming – guess which markdown editor I'm using to write this post.
 
+{% excerpt %}
 I've have tried Atom, SublimeText, TextMate, Eclipse, Visual Studio, and most of the Jetbrains products, I'm constantly **tweaking and looking for a better setup**, however Vim always feels like home to me; and I'm to the point now where I rarely use IDEs – exception being messy and complex projects where IDEs can do a lot of heavily lifting (yes, Magento I'm talking about you.)
+{% endexcerpt %}
+
 
 But other than that Vim is my default Ruby, Elixir, Python, PHP IDE and as well the main tool that I use for writing drafts and books.
 
@@ -69,7 +72,6 @@ Ok this is a big one but mostly because I keep forgetting to remove unused theme
 
 - **Vimarline**: Lean and mean status/tabline for Vim; it also looks cool as fuck.
 - **Vim-Devicons**: Because not only atom gets all the fancy icons on the sidebar, highly recommended to if you are using nerdtree.
-
 
 The remaining parts of the configuration file are either plugin configuration or personal key re-mappings that I use for quality of like; I've done my best to document and segment each section so it should be easy enough to understand what each setting is doing.
 

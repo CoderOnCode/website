@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+
+  {% include analytics.html %}
+
+  <div class="off-canvas-container">
+    {% include sidebar.html %}
+
+    <main class="book content" role="main">
+        <article class="post">
+          {% if page.image %}
+          <div class="article-image">
+            <div class="post-image-image" style="background-image: url({% if page.image %}{{ page.image }}{% endif %})">
+              Article Image
+            </div>
+            <div class="post-meta">
+              <h1 class="book-title">{{ page.title }}</h1>
+              <div class="cf post-meta-text">
+                <div class="author-image" style="background-image: url({{ site.author_image }})">Blog Logo</div>
+                <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">{{ site.author }}</h4>
+              </div>
+              <div style="text-align:center">
+                <a href="#topofpage" class="topofpage"><i class="fa fa-angle-down"></i></a>
+              </div>
+            </div>
+          </div>
+          {% else %}
+          <div class="noarticleimage">
+            <div class="post-meta">
+              <h1 class="book-title">{{ page.title }}</h1>
+              <div class="cf post-meta-text">
+                <div class="author-image" style="background-image: url({{ page.author_image }})">Blog Logo</div>
+                <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">{{ page.author }}</h4>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+          <section class="post-content">
+            <a name="topofpage"></a>
+            <!-- Book Promotion Section -->
+            <div class="section group">
+              <div class="col span_4_of_12">
+                {% contentblock preview %}
+              </div>
+              <div class="col span_8_of_12">
+                {% contentblock description %}
+              </div>
+            </div>
+            <!-- End Section -->
+            <hr/>
+  
+            {{content}}
+  <hr/>
+            <div class="section group">
+              <div class="col span_6_of_12">
+                {% contentblock itis %}
+              </div>
+              <div class="col span_6_of_12">
+                {% contentblock isnot %}
+              </div>
+            </div>
+            <hr/>
+  
+            <div class="section group">
+              <div class="col span_6_of_12">
+                {% contentblock calltoaction %}
+              </div>
+              <div class="col span_6_of_12">
+                {% contentblock newsletter %}
+              </div>
+            </div>
+  
+          </section>
+        </article>
+      </main>
+  </div>
+
+  <script src="{{ '/js/jquery-2.1.4.min.js' | prepend: site.baseurl }}"></script>
+  <script src="{{ '/js/evil-icons.min.js' | prepend: site.baseurl }}"></script>
+  <script src="{{ '/js/jquery.fitvids.js' | prepend: site.baseurl }}"></script>
+  <script src="{{ '/js/jquery.ghostHunter.min.js' | prepend: site.baseurl }}"></script>
+  <script src="{{ '/js/script.js' | prepend: site.baseurl }}"></script>
+</body>
+
+</html>

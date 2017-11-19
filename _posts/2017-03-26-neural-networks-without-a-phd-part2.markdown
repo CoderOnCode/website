@@ -18,7 +18,10 @@ image: 'http://natureofcode.com/book/imgs/chapter10/ch10_03.png'
 > Neural networks (also referred to as connectionist systems) are a computational approach, which is based on a large collection of neural units (AKA artificial neurons), loosely modelling the way a biological brain solves problems with large clusters of biological neurons connected by axons.
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Artificial_neural_network)
 
+{% excerpt %}
 In essence **Neural networks** are digital representations of their biological counterparts, and while that sounds intimidating – unless you have a strong background in statistics or cognitive science – NN are not that complicated once you understand the individual building blocks for a Neural Net.
+{% endexcerpt %}
+
 
 For illustration purposes let's take a look at the simplest possible Neural Network, the **perceptron**:
 

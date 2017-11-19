@@ -38,7 +38,9 @@ What we need is a way to represent how neurons are connected in order to form a 
 
 An important thing to notice is that **multiple topologies** can be used to learn the same set of data, and they are even likely to produce similar results; and as such there is not 'best' topology for a single neural network; that being said topology can greatly impact the amount of time required for a neural network to learn data as well its accuracy when classifying new data.
 
+{% excerpt %}
 One a approach to topology selection is to simply make it a trial and error process, where we manually tweak the Neural network by modifying things like the number of **hidden layers**, **connections between nodes,** and so on. Taking this approach would limit us greatly as there are many possible permutations even for a **simple neural network**; to complicate matters even further, Neural networks are not limited to the relatively simple **Feed-Forward** layout we have seen before, to mention a few:
+{% endexcerpt %}
 
 - Feed-forward
 - Recurrent

@@ -24,7 +24,10 @@ These are exciting times for AI and not without reasons, as the technology conti
 
 In the last year, I got hooked into machine learning and AI; and I'm firm believer that AI will drastically impact how our relationship with technology in almost every single market and niche you can imagine. 
 
+{% excerpt %}
 One particular aspect of AI that has caught my attention is the development and application of Artificial Neural Networks or ANN. Personally, I find the concept of emulating the organic brain processes not only interesting but also quite promising; on top of that ANN is one of the technologies that has seen a lot of progress in the last few years.
+{% endexcerpt %}
+
 
 However, we are nowhere near to reaching the point of democratization of this technology, that is to say that the barrier of entry is still fairly high – albeit consistently dropping. For many developers, and enthusiast this means that many aspects of AI are still far from reach. 
 
