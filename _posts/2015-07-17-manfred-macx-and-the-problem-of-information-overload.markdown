@@ -4,13 +4,13 @@ title: "Manfred Macx and the Problem of Information Overload"
 published: true
 type: post
 
-keywords: exocortex, information overload, microservices, technology, programming
+tags: [exocortex, information overload, microservices, technology, programming]
 description: "I have always been fascinated with the technology concepts presented on Charles Stross book Accelerando, artificial cats, downloads of consciousness, nanotechnology, etc. but of all of them one got my particular attention; Manfred Marcx glasses."
 featured: false
 author: allanmacgregor
 
 categories: technology futurism
-tag: article
+image: '/images/posts/manfred_macx_001.jpg'
 ---
 
 I've always been fascinated with the technology concepts presented on **Charles Stross** book _Accelerando_, artificial cats, downloads of consciousness, nanotechnology, etc. but of all of them one got my particular attention; Manfred Marcx glasses.

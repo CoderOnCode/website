@@ -4,20 +4,14 @@ title: "WTF are: Service Contracts (Magento 2 Edition)"
 published: true
 type: post
 
-keywords: magento2, magento, service contracts, design patterns, programming
+tags: [magento2, magento, service contracts, design patterns, programming]
 description: "The Service layer allows modules to provide a well-defined public API and
 effectively hiding the business logic and preserving data integrity."
 categories: magento2 magento design patterns programming php
 gradient: 		2
 
-author: 		Allan MacGregor
-bio: 			MCD+, Author, Mad Scientist Developer, Lead Magento Developer @demacmedia.
-twitter: 		"http://twitter.com/allanmacgregor"
-github: 		"http://github.com/amacgregor/"
-google: 		"https://plus.google.com/+AllanMacGregor?rel=author"
-linkedin: 		"http://ca.linkedin.com/in/allanmacgregor"
-rss: 			"http://feeds.feedburner.com/CoderOnCode"
-tag: article
+author: allanmacgregor
+image: '/images/posts/magento2-logo.png'
 ---
 
 Now that Magento2 beta has been officially released, you are probably wondering

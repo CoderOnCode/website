@@ -4,14 +4,13 @@ title: "TDD is not Dead"
 published: true
 type: post
 
-keywords: testing, programming, tdd, bdd,
+tags: [testing, programming, tdd, bdd]
 description: "TDD is not dead, not really. And it won't really ever be dead, it will change or be replaced with something better; in fact it already has, and in my MagentoTDD book we focus on Behavior Driven Development, an approach that emerged from the original TDD methodology."
 featured: false
 author: allanmacgregor
 
-
 categories: testing magento
-tag: article
+image: '/images/posts/tdd_not_dead_001.jpeg'
 ---
 
 So, where does this whole **TDD is DEAD** thing came from? Well, it all started with let's say a provocative talk and follow up blog post by David Heinemeier Hansson (@DHH) where he expressed his frustration with testing and put into question the value of TDD.

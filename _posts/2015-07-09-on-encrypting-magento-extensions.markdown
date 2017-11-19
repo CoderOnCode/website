@@ -4,12 +4,13 @@ title: On Encrypting Magento Extensions
 published: true
 type: post
 
-keywords: magento, magento connect, encryption, drm, ip, code, programming
+tags: [magento, magento connect, encryption, drm, ip, code, programming]
 description: Should Magento Connect Allow encrypted extensions
 categories: programming magento magento-connect ethics coding
 featured: false
 author: allanmacgregor
 
+image: '/images/posts/magento_encryption_001.jpg'
 ---
 
 > The opinions expressed here represent my own and not those of my employer.
