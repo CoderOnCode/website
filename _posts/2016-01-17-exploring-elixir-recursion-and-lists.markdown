@@ -7,10 +7,12 @@ description: "Exploration of recursion in elixir with lists"
 published: true
 type: post
 crosspost_to_medium: true
+featured: false
+author: allanmacgregor
 
-keywords: elixir, functional programming, programming, coding
+tags: [elixir, functional programming, programming, coding]
 categories: elixir
-tag: article
+image: '/images/posts/elixir_logo.svg'
 ---
 
 Recently, I've been playing with a new language called [Elixir](http://elixir-lang.org/). Elixir is a **functional programming language** specifically designed with the intention of creating scalable and maintainable applications. 

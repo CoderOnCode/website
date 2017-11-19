@@ -7,10 +7,12 @@ description: "This year is all about regaining focus on working on what is impor
 published: true
 type: post
 crosspost_to_medium: true
+featured: false
+author: allanmacgregor
 
-keywords: 2017, focus, productivity, burnout
+tags: ['2017', focus, productivity, burnout]
 categories: health, life, productivity
-tag: article
+image: '/images/posts/regaining_focus_001.jpeg'
 ---
 
 Another year done and over, and as is tradition there needs to be a new year-end blog post, clarifying how I'm going to start doing everything right on 2017 and be a 10x human being, yes 2017 is the year to optimize, simplify, achieve all our goals and wildest dreams .... except all those blogpost are frankly bullshit. 

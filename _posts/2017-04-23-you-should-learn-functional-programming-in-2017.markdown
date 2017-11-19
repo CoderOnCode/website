@@ -5,10 +5,10 @@ date: 2017-04-23T16:53:15-04:00
 description: "Functional programming is making a big comeback and here is why developers should make their mission for 2017 to learn a functional language"
 
 published: true
-feature: true
-author: allanmacgregor
 type: post
 crosspost_to_medium: true
+featured: true
+author: allanmacgregor
 
 tags: [functional programming, elixir, erlang, programming]
 categories: functional-programming

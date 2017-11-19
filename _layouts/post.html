@@ -29,7 +29,7 @@ layout: default
           {{ content }}
           <div class="post__tags">
             {% for tag in page.tags %}
-              <a href="{{ site.baseurl }}/tag/{{ tag }}">{{ tag }}</a>
+              <a href="{{ site.baseurl }}/tag/{{ tag | replace: ' ', '-' }}">{{ tag | replace: " ", "-"}}</a>
             {% endfor %}
           </div>
         </div>

@@ -7,10 +7,12 @@ description: "A simple neural network implementation in python with numpy"
 published: true
 type: post
 crosspost_to_medium: true
+featured: false
+author: allanmacgregor
 
-keywords: machine learning, python, artificial intelligence, neural networks
+tags: [machine learning, python, artificial intelligence, neural networks']
 categories: machine learning
-tag: article
+image: '/images/posts/simple_neuralnet_001.jpg'
 ---
 
 For the last few months I've been slowly getting my head around the concepts of machine learning, artificial intelligence and neural networks. The impact that machine learning could potentially have on everyday tasks and the way we develop and interact with applications is incredibly exciting; for that reason I been slowly trying to spend as much of my free time as possible trying to learn this big and complex field.

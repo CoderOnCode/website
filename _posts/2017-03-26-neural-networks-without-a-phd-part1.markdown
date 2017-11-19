@@ -7,10 +7,12 @@ description: "A series focused on presenting Neural Networks and the related con
 published: true
 type: post
 crosspost_to_medium: true
+featured: false
+author: allanmacgregor
 
-keywords: machine learning, artificial intelligence, neural networks
+tags: [machine learning, artificial intelligence, neural networks]
 categories: machine-learning
-tag: article
+image: '/images/posts/neuralnet_intro_001.jpeg'
 ---
 <!---
 Recently, anything and everything **Artificial Intelligence** has seen a resurgence in focus and interest by not only the academic community but also the large corporate ecosystem and hobbyist developer community. 

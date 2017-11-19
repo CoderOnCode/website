@@ -7,25 +7,27 @@ description: ""
 published: true
 type: post
 crosspost_to_medium: true
+featured: true
+author: allanmacgregor
 
-keywords: vim, programming, productivity, tools
+tags: [vim, programming, productivity, tools]
 categories: tools
-tag: article
+image: '/images/posts/vim_ide_001.png'
 ---
 
-Over the years I've jumped back and forth between many code editors, **IDEs** and **tools**; but it seems that somehow I always end up coming right back to VIM, and not only for programming – guess which markdown editor I'm using to write this post. 
+Over the years I've jumped back and forth between many code editors, **IDEs** and **tools**; but it seems that somehow I always end up coming right back to VIM, and not only for programming – guess which markdown editor I'm using to write this post.
 
 I've have tried Atom, SublimeText, TextMate, Eclipse, Visual Studio, and most of the Jetbrains products, I'm constantly **tweaking and looking for a better setup**, however Vim always feels like home to me; and I'm to the point now where I rarely use IDEs – exception being messy and complex projects where IDEs can do a lot of heavily lifting (yes, Magento I'm talking about you.)
 
-But other than that Vim is my default Ruby, Elixir, Python, PHP IDE and as well the main tool that I use for writing drafts and books. 
+But other than that Vim is my default Ruby, Elixir, Python, PHP IDE and as well the main tool that I use for writing drafts and books.
 
 ## What it look like
 
 <a href="http://imgur.com/AQSIXwj"><img src="http://i.imgur.com/AQSIXwj.gif" title="source: imgur.com" /></a>
 
-## The Setup 
+## The Setup
 
-So how does this magical tool work? Is all out of the box right? right? Well no, as with all the worthwhile things in life there is a bit of effort involved on getting the Vim setup just like I wanted it. Fortunately, is far from custom and is mostly the right combination of plugins. 
+So how does this magical tool work? Is all out of the box right? right? Well no, as with all the worthwhile things in life there is a bit of effort involved on getting the Vim setup just like I wanted it. Fortunately, is far from custom and is mostly the right combination of plugins.
 
 You can find my current Vim configuration and dot files in its corresponding [Github repository](https://github.com/amacgregor/dot-files) feel free to fork it and give a shot.
 
@@ -62,14 +64,14 @@ So far elixir is winning the battle in terms of plugins as I've added additional
 ###Git Support
 Standard git support that I'm afraid I rarely use, I find myself going directly back to the **shell** and doing the **git workflow** outside of Vim, so I'm open to suggestions and to hear what everyone else is using in terms of setup.
 
-###Themes and Interfaces 
+###Themes and Interfaces
 Ok this is a big one but mostly because I keep forgetting to remove unused themes and colorschemes, let's highlight the important ones:
 
 - **Vimarline**: Lean and mean status/tabline for Vim; it also looks cool as fuck.
 - **Vim-Devicons**: Because not only atom gets all the fancy icons on the sidebar, highly recommended to if you are using nerdtree.
 
 
-The remaining parts of the configuration file are either plugin configuration or personal key re-mappings that I use for quality of like; I've done my best to document and segment each section so it should be easy enough to understand what each setting is doing. 
+The remaining parts of the configuration file are either plugin configuration or personal key re-mappings that I use for quality of like; I've done my best to document and segment each section so it should be easy enough to understand what each setting is doing.
 
 For anyone getting starting with Vim, I do want to bring special attention to the following:
 

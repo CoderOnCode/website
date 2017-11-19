@@ -7,6 +7,8 @@ type: post
 keywords: git, github, linux, tips, programming
 description: Useful collection of git tips and tricks
 categories: git github linux tips programming
+featured: false
+author: allanmacgregor
 
 ---
 

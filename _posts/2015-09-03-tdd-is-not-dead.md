@@ -6,6 +6,9 @@ type: post
 
 keywords: testing, programming, tdd, bdd,
 description: "TDD is not dead, not really. And it won't really ever be dead, it will change or be replaced with something better; in fact it already has, and in my MagentoTDD book we focus on Behavior Driven Development, an approach that emerged from the original TDD methodology."
+featured: false
+author: allanmacgregor
+
 
 categories: testing magento
 tag: article

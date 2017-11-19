@@ -7,10 +7,12 @@ description: "Functional programming is often treated as the fad of hipster must
 published: true
 type: post
 crosspost_to_medium: true
+featured: false
+author: allanmacgregor
 
-keywords: functional programming, elixir, coding 
+tags: [functional programming, elixir, coding, software architecture]
 categories: "functional programming"
-tag: article
+image: '/images/posts/functional_programming_001.jpeg'
 ---
 
 Functional programming is often treated as the fad of hipster mustachioed programmers, and more often is dismissed without much consideration; after all Object Oriented Programming is superior. Well, at least that use to be the trend but in recent years Functional programming has experienced a renaissance and as result functional programming languages are gaining more and more adoption.

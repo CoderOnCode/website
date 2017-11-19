@@ -2,15 +2,17 @@
 layout: post
 title: "On Codes on Conduct"
 date: 2016-01-24T19:41:40-05:00
+description: "My opinions and ruminations on the whole debate about PHP's code of conduct"
 
 published: true
 type: post
 crosspost_to_medium: true
+featured: false
+author: allanmacgregor
 
-keywords: codes of conduct, community, social justice, equality
-description: "My opinions and ruminations on the whole debate about PHP's code of conduct"
+tags: [codes of conduct, community, social justice, equality]
 categories: community
-tag: article
+image: '/images/posts/code_conduct_001.jpeg'
 ---
 
 Recently, there has been a lot of controversy and discussion surrounding the adoption of a code of conduct for the PHP project; there has been endless back and forth between proponents and opponents of the motion. I've debated if I should publish my opinions on the subject or simply remain quite and hope for the best; however as emails from the internals list continued to flood my inbox, I found it harder and harder to just sit idly silent. 

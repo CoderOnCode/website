@@ -3,7 +3,7 @@
   <div class="post-card">
 
     <a href="{{ post.url | prepend: site.baseurl }}" class="block" title="{{ post.title }}">
-      <div class="grey-bg post-card__image CoverImage FlexEmbed FlexEmbed--16by9" style="background-image: url({{ post.image | prepend: site.baseurl }})">
+      <div class="grey-bg post-card__image CoverImage FlexEmbed FlexEmbed--16by9" style="background-image: url({{ post.image | default: "/images/placeholder/post-card.png"| prepend: site.baseurl }})">
         {% if post.featured %}
           <span title="Featured Post">
             <span class="post-card--featured__icon" data-icon="ei-star" data-size="s"></span>

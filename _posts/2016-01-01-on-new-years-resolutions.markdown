@@ -7,6 +7,8 @@ description: ""
 published: true
 type: post
 crosspost_to_medium: true
+featured: false
+author: allanmacgregor
 
 keywords: 2016, new year, resolutions, productivity, goals
 categories: productivity
