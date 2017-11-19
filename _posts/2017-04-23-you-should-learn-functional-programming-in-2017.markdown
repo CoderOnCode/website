@@ -5,12 +5,14 @@ date: 2017-04-23T16:53:15-04:00
 description: "Functional programming is making a big comeback and here is why developers should make their mission for 2017 to learn a functional language"
 
 published: true
+feature: true
+author: allanmacgregor
 type: post
 crosspost_to_medium: true
 
-keywords: functiona programming, elixir, erlang, programming
+tags: [functional programming, elixir, erlang, programming]
 categories: functional-programming
-tag: article
+image: 'https://upload.wikimedia.org/wikipedia/commons/b/b9/NASAComputerRoom7090.NARA.jpg'
 ---
 
 Functional programming has been around for a very long time, starting in the 50's with the introduction of the **Lisp** programming language; and if you been paying attention in the last two years languages like **Clojure**, **Scala**, **Erlang**, **Haskell** and **Elixir** have been making a lot of noise and getting tons of attention. 

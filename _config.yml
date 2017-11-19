@@ -6,17 +6,24 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title:            East
-email:            your-email@domain.com
-description:      Minimal and Clean Blog Jekyll Theme
+title:            CoderOnCode 
+email:            contact@coderoncode.com
+description:      Random ramblings about code, programming, and technology
 baseurl:          '' # The subpath of your site, e.g. /blog
-url:              'https://east-jekyll.aerobatic.io' # The base hostname & protocol for your site
-github_username:  aspirethemes
-twitter_username: aspirethemes
+url:              'https://coderoncode.com' # The base hostname & protocol for your site
+github_username:  CoderOnCode 
+twitter_username: CoderOnCode 
 
 markdown:  kramdown
 permalink: pretty
 paginate:  12
+
+
+jekyll-crosspost_to_medium:
+  enabled: true
+  cache: .jekyll-crosspost_to_medium
+  status: draft
+  license: all-rights-reserved
 
 gems:
   - jekyll-paginate
@@ -47,11 +54,11 @@ defaults:
 
 # Authors
 authors:
-  ahmad:
-    name:             Ahmad Ajmi
-    bio:              Author & developer of Aspire Themes. Minimalist. I love creating clean and minimal websites.Technical writer at SitePoint.
-    gravatar:         https://s.gravatar.com/avatar/f83141edd9e6339e678648596a403fd5?s=150
-    email:            info@aspirethemes.com
-    website:          http://aspirethemes.com
-    github_username:  ahmadajmi
-    twitter_username: ahmadajmi
+  allanmacgregor:
+    name:             Allan MacGregor 
+    bio:              Director of Engineering at Demac Media, veteran software developer constantly exploring new tools and technologies. 
+    gravatar:         https://s.gravatar.com/avatar/b64d0da0dffd4028635446e4cfbc0cee?s=150
+    email:            info@allanmacgregor.com
+    website:          http://coderoncode.com
+    github_username:  amacgregor 
+    twitter_username: allanmacgregor
