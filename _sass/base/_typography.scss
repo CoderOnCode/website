@@ -6,7 +6,7 @@ body {
   color: $color__base;
   background-color: #fff;
   font-size: $font-size__base;
-  font-weight: $font-weight__light;
+  font-weight: $font-weight__regular;
   font-family: $font__serif;
   line-height: $line-height__base;
 
@@ -22,7 +22,7 @@ h5,
 h6 {
   font-family: $font__serif;
   font-size: $font-size__base;
-  font-weight: $font-weight__light;
+  font-weight: $font-weight__bold;
   margin: 0 0 $line-height__medium;
 
   @media #{$medium-down} {

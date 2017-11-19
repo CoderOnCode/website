@@ -5,9 +5,16 @@
 .sidebar {
   padding: half($line-height__medium) 0;
   line-height: $line-height__medium;
+  color: $text-color--light;
+  
+  .social-nav {
+    .icon {
+      fill: #FAFAFA;
+    }
+  }
 
   @media #{$large-down} {
-    background-color: #fff;
+    background-color: $dark-bg;
     border-bottom: 1px solid $border-color;
   }
 
@@ -17,11 +24,23 @@
     left: 0;
     width: $sidebar-width;
     height: 100%;
-    background-color: $grey-bg;
+    background-color: $dark-bg;
     padding: $line-height__base 0;
     display: flex;
     align-items: center;
     text-align: center;
+  }
+
+  a {
+    color: $text-color--light;
+
+    &:visited {
+      color: $text-color--light;
+    }
+
+    &:hover {
+      color: $text-color--darker;
+    }
   }
 
   &__logo {
@@ -33,7 +52,7 @@
       letter-spacing: 1px;
 
       &:hover {
-        color: $color__base--hover;
+        color: $text-color--darker;
       }
     }
 
