@@ -1,5 +1,19 @@
 RewriteEngine On
 RewriteBase /
 
-RewriteCond %{THE_REQUEST} \.html
-RewriteRule ^(.*)\.html$ /$1 [R=301,L]
+Header set Cache-Control "max-age=86400, public"
+
+<ifModule mod_gzip.c>
+mod_gzip_on Yes
+mod_gzip_dechunk Yes
+mod_gzip_item_include file .(html?|txt|css|js|php|svg|png|jpg|jpeg|pl)$
+mod_gzip_item_include handler ^cgi-script$
+mod_gzip_item_include mime ^text/.*
+mod_gzip_item_include mime ^application/x-javascript.*
+mod_gzip_item_exclude mime ^image/.*
+mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
+
+AddType image/svg+xml svg svgz
+AddEncoding gzip svgz
+
+</ifModule>
