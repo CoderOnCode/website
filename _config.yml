@@ -15,7 +15,9 @@ github_username:  CoderOnCode
 twitter_username: CoderOnCode 
 
 markdown:  kramdown
-permalink: pretty
+# permalink: pretty
+
+permalink: /:categories/:year/:month/:day/:title.html
 paginate:  12
 
 

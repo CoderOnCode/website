@@ -1,0 +1,11 @@
+#!/bin/sh
+export JEKYLL_ENV='production'
+
+# Remove the contents of the _site folder 
+rm -Rf _site/*
+
+# Generate the site in case it wasn't generated 
+bundle exec jekyll build 
+
+# Upload to server
+rsync -rave ssh _site/* web1.coderoncode:/srv/www/coderoncode.com/public_html
