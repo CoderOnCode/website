@@ -16,13 +16,15 @@
         <nav class="navigation">
           <ul class="list-bare text-center">
             {% for page in site.pages %}
-              {% unless page.name == '404.md' %}
+              <!-- {% unless page.name == '404.md' or page.name == 'books.md' %} -->
+              {% if page.name == 'about.md'  %}
                 {% if page.title %}
                   <li>
                     <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                   </li>
                 {% endif %}
-              {% endunless %}
+              {% endif %}
+              <!-- {% endunless %} -->
             {% endfor %}
             <li><a class="subscribe-button icon-feed" href="{{ '/feed.xml' | prepend: site.baseurl }}">RSS</a></li>
           </ul>
