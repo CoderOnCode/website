@@ -48,16 +48,17 @@ In 2017, there was a significant number of businesses using AI to drive finacial
 
 ## The Rise of Backends As A Service (BaaS)
 
-While not a highly popular trend in 2017, with the raise of mobile and serverless applications, Backend As A Service (BaaS) will become more common place and essential tool for startups and developers.
+Backend as a service, while typically is not reference by that name is a trend that has been on the rise in 2017 and will continue gaining steam during 2018. 
 
+BaaS turns traditional parts of the backend into a third party service that is consumed by other applications, some good examples of BaaS are push notifications, file storage and sharing, integration with social networks and messaging and chat, just to mention a few.
 
-
+One trend that I'm expecting to see more of in 2018 is what Shopify is doing with its Storefront API, in which Shopify essentially becomes a headless backend for a fully customizable shopping experience.
 
 
 ## Augmented Reality
 
 While there has been a lot of hype surrounding Virtual Reality in the past couple years, there is still ways to go before it becomes commonplace and widely adopted. On the other hand Augmented Reality, might become mainstream in 2018.
 
-
+AR and mobile seem to be the perfect marriage and with the release of ARKit by Apple and ARCore by Google, 2018 is poised to be the year where we will see maintstream adoption of AR.
 
 Photo by Eddie Kopp on Unsplash
