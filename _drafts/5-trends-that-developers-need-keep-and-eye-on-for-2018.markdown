@@ -13,11 +13,7 @@ tags: [trends, technology, predictions]
 categories:
 image: '/images/posts/2018-trends.jpg'
 ---
-
-As we get closer to the New Year, is time to reflect and plan for what 2018 might bring. 
-
-Any developer or entreprenuer worth its salt knows that it's important to stay on top of the latest technologies trends so we can anticipate market and customer demands and meet them where they are at.
-
+With 2018 around the corner is prudent to take some time and see what new and existing trends will dominate 2018.
 
 ## Blockchain
 
