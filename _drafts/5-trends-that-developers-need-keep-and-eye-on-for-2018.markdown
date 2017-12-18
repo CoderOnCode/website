@@ -21,12 +21,18 @@ Any developer or entreprenuer worth its salt knows that it's important to stay o
 
 ## Blockchain
 
-While you should be extremely careful with the recent craze surrounding
+While we should be extremely careful with the recent craze surrounding bitcoin and other sister crypto currencies; we can certainly give credit to bitcoin for bringing a lot of attention to the blockchain  technology.
+
+
 
 ## Conversational Interfaces
 
+From chatbots to voice recognition platforms like Siri and Alexa, conversational interfaces will take a stronger market hold in 2018.
+
 
 ## AI will take over ...
+
+AI will take over ... but not in the way you think. In 2018 we will see a raise in solutions and applications augmented by the use Machine Learning/AI.
 
 
 ## The Rise of Backends As A Service (BaaS)
