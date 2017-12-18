@@ -1,0 +1,15 @@
+---
+layout: post
+title: {{ title }} 
+description: ""
+
+published: true
+type: post
+crosspost_to_medium: true
+featured: false
+author: allanmacgregor
+
+tags: []
+categories:
+image: ''
+---

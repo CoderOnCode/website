@@ -1,0 +1,11 @@
+---
+layout: post
+title: {{ title }}
+published: true
+type: post
+
+keywords:
+description: ""
+categories:
+tag: article
+---
