@@ -9,7 +9,7 @@ crosspost_to_medium: true
 featured: false
 author: allanmacgregor
 
-tags: []
+tags: [trends, technology, predictions]
 categories:
 image: '/images/posts/2018-trends.jpg'
 ---
@@ -38,8 +38,11 @@ AI will take over ... but not in the way you think. In 2018 we will see a raise 
 ## The Rise of Backends As A Service (BaaS)
 
 
+
+
 ## Augmented Reality
 
+While there has been a lot of hype surrounding Virtual Reality in the past couple years, there is still ways to go before it becomes commonplace and widely adopted. On the other hand Augmented Reality, might become mainstream in 2018.
 
 
 
