@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 5 Trends To Watch Out On 2018 
+date: 2017-12-18T20:13:44-05:00
 description: “Five technology trends to keep to watch out for in 2018.“
 
 published: true
@@ -10,7 +11,7 @@ featured: false
 author: allanmacgregor
 
 tags: [trends, technology, machine-learning]
-categories:
+categories: technology
 image: '/images/posts/2018-trends.jpg'
 ---
 With 2018 around the corner is prudent to take some time and see what new and existing trends will dominate 2018.
