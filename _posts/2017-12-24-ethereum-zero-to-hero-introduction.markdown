@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Ethereum Zero to Hero: Introduction"
-description: ""
+date: 2017-12-24T14:21:20-05:00
+description: "An introduction to Ethereum Development"
 
 published: true
 type: post

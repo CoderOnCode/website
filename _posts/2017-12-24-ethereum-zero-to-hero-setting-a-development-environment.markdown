@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Ethereum Zero to Hero: Setting a Development Environment"
-description: ""
+date: 2017-12-24T14:21:31-05:00
+description: "Setting up the a basic private test network for Ethereum development"
 
 published: true
 type: post

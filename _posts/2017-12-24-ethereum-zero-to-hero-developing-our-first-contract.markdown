@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Ethereum Zero to Hero: Developing Our First Contract"
-description: ""
+date: 2017-12-24T14:21:37-05:00
+description: "Developing a basic contact using Ethereum"
 
 published: true
 type: post
