@@ -26,6 +26,10 @@ jekyll-crosspost_to_medium:
   cache: .jekyll-crosspost_to_medium
   status: draft
   license: all-rights-reserved
+  text: "<hr/> \
+         <p><i>Hold down the clap button if you liked the content! It helps me gain exposure, and keeps me motivated to keep writing.</i></p> \
+         <p><i><strong>I love getting questions or suggestions, so comment away!</strong></i></p> \
+         <p><i>This article was originally posted on <a href=\"{{ url }}\" target=\"_blank\" rel=\"canonical\">CoderOnCode</a>, please check it out.</i></p>"
 
 gems:
   - jekyll-paginate
